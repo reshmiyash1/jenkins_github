@@ -15,6 +15,16 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
+   
+   <distributionManagement>
+
+ 
+<repository>
+<id>internal.repo</id>
+<name>Internal repo</name>
+<url>file:deploy</url>
+</repository>
+</distributionManagement>
 
   <modules>
     <module>server</module>
