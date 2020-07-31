@@ -10,6 +10,15 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  
+   
+<distributionManagement>
+<repository>
+  <id>internal.repo</id>
+  <name>Internal repo</name>
+  <url>file:deploy</url>
+</repository>
+</distributionManagement>
  
   <dependencies>
     <dependency>
