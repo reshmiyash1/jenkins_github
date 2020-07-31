@@ -16,9 +16,7 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
    
-   <distributionManagement>
-
- 
+<distributionManagement>
 <repository>
 <id>internal.repo</id>
 <name>Internal repo</name>
